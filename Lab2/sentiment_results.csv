@@ -1,0 +1,5 @@
+Text,Sentiment,Confidence
+I loved the movie!,POSITIVE,0.9998749494552612
+The product quality was terrible.,NEGATIVE,0.9997814297676086
+The lecture was very informative.,POSITIVE,0.9993341565132141
+I would not recommend this to anyone.,NEGATIVE,0.957747757434845

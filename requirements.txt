@@ -1,0 +1,9 @@
+transformers
+datasets
+sentence-transformers
+fastai
+torch
+torchvision
+torchaudio
+kaggle
+jupyter
