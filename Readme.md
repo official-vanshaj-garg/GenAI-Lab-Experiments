@@ -130,7 +130,7 @@ Used `google/flan-t5-base` (a seq2seq transformer) via the Hugging Face `pipelin
 
 A full-featured travel guide web application for budget travellers in India, built entirely using **Lovable AI** through structured natural language prompts. The app provides practical commute guidance for Indian cities, real traveller stories, safety tips, and city-by-city transport breakdowns.
 
-**Live Project:** [Lovable.dev Project](https://lovable.dev/projects/cfd29494-76cd-4e7b-93c3-a3b0a269baed)
+**Live Project:** [Lovable.dev Project](https://jugaad-journeys.lovable.app/)
 
 ### Tech Stack
 
