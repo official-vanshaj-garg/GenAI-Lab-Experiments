@@ -1,17 +1,37 @@
+# GenAI Lab Experiments (SEM 6 – AIML)
+
+This repository contains laboratory experiments for the GenAI course,
+focused on understanding and applying Large Language Models (LLMs),
+prompt engineering, and agent-based AI systems.
+
 ---
 
-## Lab 2 – Using Hugging Face and FastAI
-
+## Lab 2: Hugging Face & FastAI
 **Objective:**  
-To apply Generative AI tools for NLP tasks such as sentiment analysis, semantic similarity,
-and text classification using pretrained models.
+To explore pretrained models and implement basic inference using
+Hugging Face and FastAI libraries.
 
-**Key Tasks Completed:**
-- Sentiment analysis using Hugging Face pipelines
-- Saving model predictions to CSV
-- Semantic similarity using sentence embeddings
-- Training a text classifier using FastAI on IMDb dataset
+📁 Folder: `/Lab2`
 
-**Results:**
-- Achieved ~83% validation accuracy after one epoch of training
-- Training metrics logged using CSVLogger (`history.csv`)
+---
+
+## Lab 3: Prompt Engineering Patterns & Personalization
+**Objective:**  
+To master foundational prompt engineering patterns that control
+persona, reasoning, refinement, and conversational boundaries of LLMs.
+
+### Concepts Covered:
+1. Persona Prompting  
+2. Cognitive Verifier Pattern  
+3. Question Refinement Pattern  
+4. Provide New Information and Ask Questions  
+5. Root Prompt  
+
+📁 Folder: `/Lab3`
+
+### Lab 3 Files:
+- `persona_prompting.md`
+- `cognitive_verifier.md`
+- `question_refinement.md`
+- `new_info_questions.md`
+- `root_prompt.md`
