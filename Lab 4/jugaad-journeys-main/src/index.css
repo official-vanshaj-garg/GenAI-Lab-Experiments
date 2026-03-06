@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Jugaad Journeys Design System - Travel India the smart way */
+    
+    /* Core brand colors */
+    --primary: 14 100% 60%; /* #FF6B35 - warm orange */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 196 93% 29%; /* #05668D - deep teal */
+    --secondary-foreground: 0 0% 100%;
+    
+    --accent: 44 100% 70%; /* #FFD166 - soft yellow */
+    --accent-foreground: 222 47% 11%;
+    
+    /* Backgrounds */
+    --background: 200 100% 98%; /* #F5FBFF - very light blue/white */
+    --foreground: 222 47% 7%; /* #111827 - very dark gray for headings */
+    
+    --card: 0 0% 100%;
+    --card-foreground: 215 20% 27%; /* #374151 - body text */
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 7%;
+    
+    /* UI elements */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 14 100% 60%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --radius: 0.75rem;
+    
+    /* Custom design tokens */
+    --gradient-sunset: linear-gradient(135deg, hsl(14 100% 60%), hsl(44 100% 70%));
+    --gradient-ocean: linear-gradient(135deg, hsl(196 93% 29%), hsl(196 93% 45%));
+    --gradient-subtle: linear-gradient(180deg, hsl(200 100% 98%), hsl(210 40% 98%));
+    
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+    --shadow-card-hover: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-card-foreground font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-foreground font-bold;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out;
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out;
+  }
+  
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
